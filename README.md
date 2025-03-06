@@ -3,7 +3,9 @@
 Test campaign reports
 
 Fetch URL with big data manually and by cron in separate process
+
 Parse data and save to db
+
 Get aggregated data from db
 
 ## Stack
