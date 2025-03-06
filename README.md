@@ -17,8 +17,15 @@ Cron, Queue, Redis, NestJS, TypeORM, Postgresql, TypeScript, JavaScript, docker-
 ```bash
    $ sudo apt-get install redis-server
 ```
+1. Install Postgresql
+```bash
+   $ sudo apt install postgresql
+```
 2. Create .env file based on .env.example
 3. Create Database DB_DATABASE
+```bash
+   sudo -u postgres psql -c 'create database DB_DATABASE;'
+```
 4. Install packages 
 ```bash
    $ npm i
